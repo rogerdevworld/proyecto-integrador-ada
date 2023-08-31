@@ -23,5 +23,5 @@ Imprimir un mensaje de bienvenida con el nombre."""
 player_name = input("Add your name: ")
 
 
-print(f"Welcome to my Integrator Project, your name is {player_name} white yes or no to continue...\n")
+print(f"Welcome to my Integrator Project, your name is {player_name}, white yes or no to continue...\n")
 
