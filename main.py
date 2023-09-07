@@ -18,10 +18,26 @@ Pedir el nombre del jugador por teclado.
 Imprimir un mensaje de bienvenida con el nombre."""
 
 
+#impotaciones de los paquetes de python
+from readchar import readkey, key
 
+
+
+import readchar
+
+#primer paso del proyecto
 #pedir el nombre del jugador
 player_name = input("Add your name: ")
-
-
 print(f"Welcome to my Integrator Project, your name is {player_name}, white yes or no to continue...\n")
+
+EXIT_KEY = readchar.key.UP
+
+while True:
+  key = readchar.readkey()
+
+  print(key)
+  if key == EXIT_KEY:
+    break
+
+
 
