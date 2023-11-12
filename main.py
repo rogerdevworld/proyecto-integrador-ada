@@ -29,17 +29,17 @@ print(f"Welcome to my Integrator Project, your name is {player_name}, white yes 
 
 EXIT_KEY = readchar.key.UP
 
-
 def cls_pr(n):
-  os.system('cls' if os.name == 'nt' else 'clear')
-  print(n)
+    os.system('cls' if os.name == 'nt' else 'clear')
+    print(n)
 
 
+EXIT_KEY = readchar.key.UP
 n = 0
 while True:
-  key = readchar.readkey()
-  if key == 'n':
-    n += 1
-    if n > 50:
-      break
-    cls_pr(n)
+    key = readchar.readkey()
+    if key == 'n':
+        n += 1
+        if n > 50:
+            break
+        cls_pr(n)
